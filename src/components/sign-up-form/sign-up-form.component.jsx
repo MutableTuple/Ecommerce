@@ -32,6 +32,7 @@ const resetFormFields = () =>{
         if(password!=confirmPassword){
             alert("Passwords do not match");
             return;
+            
         }
 
         try{
